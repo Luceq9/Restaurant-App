@@ -1,0 +1,13 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import './base/variables';
+@import './components/carousel';
+@import './base/footer';
+@import './base/header';
+@import './base/content';
+@import './components/slides';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}

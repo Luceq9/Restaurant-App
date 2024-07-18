@@ -1,0 +1,12 @@
+//footer styles
+footer {
+	//position: fixed;
+	bottom: 0;
+	width: 100%;
+	position: fixed;
+	background-color: $color-black;
+	color: $color-white;
+	padding: 1rem;
+	z-index: 2;
+	text-align: center;
+}

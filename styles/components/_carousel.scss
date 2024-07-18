@@ -1,0 +1,68 @@
+.carousel--first {
+	background-image: url('https://cdn.pixabay.com/photo/2017/01/26/02/06/platter-2009590_1280.jpg');
+}
+.carousel-inner--first {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 20px;
+	padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	box-shadow: $box-shadow;
+}
+
+.card {
+	background-color: rgba(255, 255, 255, 0.541);
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	text-align: center;
+	color: #000000;
+	font-weight: 500;
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #ccc;
+}
+
+.card h3 {
+	margin: 10px 0;
+}
+
+.card p {
+	color: #000000;
+	padding: 0 10px 10px;
+}
+
+.carousel-caption {
+	background-color: rgba(15, 2, 2, 0.315);
+	border: 1px solid #cccccc7c;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	text-align: center;
+}
+
+.disabled {
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+.carousel-control-prev-icon {
+	background-color: black;
+}
+.carousel-control-next-icon {
+	background-color: black;
+}
+.container--box {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.carousel-item {
+	height: 400px;
+	width: 100%;
+}
